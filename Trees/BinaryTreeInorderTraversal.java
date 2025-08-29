@@ -1,4 +1,17 @@
 /**
+ * Problem: Binary Tree Inorder Traversal (LeetCode #94)
+ *
+ * Approach:
+ * - Recursive DFS
+ * - Visit Left → Node → Right
+ *
+ * Time Complexity: O(n)  // every node is visited once
+ * Space Complexity: O(h) // recursion stack, h = tree height
+ */
+
+// ----------------Solution-------------------//
+
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -27,3 +40,4 @@ class Solution{
         }
     }
 }
+
